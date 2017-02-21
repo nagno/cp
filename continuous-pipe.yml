@@ -13,7 +13,7 @@ tasks:
         deploy:
             cluster: ${CLUSTER}
             environment:
-                name: '"sfdemo-" ~ code_reference.branch'
+                name: '"demo-nagno - sfdemo-" ~ code_reference.branch'
             services:
                 web:
                     specification:
